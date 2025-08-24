@@ -1,16 +1,20 @@
-[project]
+[tool.poetry]
 name = "vacancy-analyzer"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Admin",email = "ulb9@mail.ru"}
-]
+description = "vacancy-analyzer HH"
+authors = ["Admin <ulb9@mail.ru>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "requests (>=2.32.5,<3.0.0)"
-]
 
+[tool.poetry.dependencies]
+python = ">=3.13"
+requests = ">=2.32.5,<3.0.0"
+pandas = ">=2.3.2,<3.0.0"
+numpy = ">=2.3.2,<3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^25.1.0"
+flake8 = "^7.3.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
