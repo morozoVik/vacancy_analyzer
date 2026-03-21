@@ -24,7 +24,7 @@ Python-приложение для сбора, анализа и фильтра�
 
 1. **Клонируйте репозиторий:**
 ```
-git clone https://github.com/ваш-username/ваш-репозиторий.git
+git clone https://github.com/morozoVik/vacancy_analyzer.git
 cd vacancy_analyzer
 ```
 
